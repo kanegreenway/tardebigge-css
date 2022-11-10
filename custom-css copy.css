@@ -1,0 +1,140 @@
+
+@import url('dsn001a_sesh.css');
+/* responsive demo 1 ( with child prompts, cc preauth, menus, enquiries !*/
+
+body, #description h1 { font-family:Courier, 'Courier New'}
+body, #wrapper {width:710px;height:100%;font-family:Courier, 'Courier New';position:relative}
+#wrapper{background: transparent url(http://bookings.liveres.co.uk/images/mh_bg_line.png) repeat-y}
+#main{width:100%;padding:0;margin:0}
+#col1, #col1.current, #col1.previous{width:215px;margin:10px 0 10px 0}
+#col2, #col2.current, #col2.previous{width:250px;margin:10px 0 10px 35px}
+#col3, #col3.current{width:150px}
+#findNext { margin-left: 5px; }
+
+#openOff, #headerdiv { display: none!important; }
+#summary, .cal_weekend a:hover, .cal_day:hover, .cal_dayheader, table.cal_title td, .cal_nextprev a:link, .cal_today a:link, .cal_nextprev a:link, td.cal_othermonth a:hover,
+#bookingref ul, #restaurant span, #time span, #requests span, #errorInner, #covers span,
+span#title, span#surname, span#forename, span#tel, span#email, span#mobile, span#custPostcode, span#title span, span#surname span, span#forename span, span#tel span, span#email span, span#mobile span,
+span#custPostcode span, #marketinglabel, #marketinglabel2, #tclabel, #colAuth, #consentOptions span:not(.consentChoice) {
+    color: #939290 !Important
+}
+
+#DropDownListSesh{width:130px;width:120px\0/IE8+9;margin-left:5px;height:18px}
+#DropDownListRest { height: 18px; }
+#DropDownListCovers{width:77px;height:18px;}
+#covers span{width:25px;padding-left:0;margin: 0;}
+
+#time {position:static;top:0;left:0;margin:5px 0 0 5px;padding:0;}
+#time span { width: 75px; }
+#DropDownListTime{width:130px;margin-left:5px;font-size:11px;height:18px;}
+#requests { margin-top: 10px; }
+
+table.cal_title td, .cal_nextprev a:hover{color:#666666!important}
+td.cal_weekend, td.cal_today, td.cal_othermonth, td.cal_day, td.cal_selectday, td.cal_notavail{background-image:none;}
+#TextBoxRequests, #TextBoxFore, #TextBoxSur, #TextBoxTel, #TextBoxEmail, #TextBoxCustPostcode {color:#000;background:#fff}
+
+#book, #book:hover{background: transparent url(http://bookings.liveres.co.uk/images/mh_bookit.png) no-repeat 0 0; margin:25px 0 5px 0; width:112px}
+#covers{margin:5px 0 0 5px}
+#description{width:520px;background-image:url(http://bookings.liveres.co.uk/images/70cent_bg.png)}
+#closeOff, #closeOff:hover{background:transparent url(http://bookings.liveres.co.uk/images/mh_continue.png) no-repeat 0 0;width:118px}
+#closeErr{left:auto;right:-6px;top:-6px;font-size:0px}
+#closeOff, #closeMarketing, #closeDailyMark { position: relative; margin: 0px auto; display:block;left:auto}
+#openMarketing{left:auto;right:0px}
+#bookingref{text-align:center;width:90%;margin: 0 auto;display:block}
+#bookingref p, #bookingref li, span #bookemail, span#booksms{color:#000!important;}
+#bookingref p, #bookingref ul { display:block; position: relative; height:auto;width:90%;margin-left:0;margin-right:0;top:auto;left:auto}
+#mhccmessage { position: absolute; bottom: 20px; width: 80%; margin-left: 10px; color: red; font-weight: bold; }
+
+#errorInner, #description, #marketingInner, #dailymarketingInner{ top: 0px; left: 0px; text-align: left; background: #fff; width: 90%; height: 85%; margin: 2%; padding: 2%; border: 1px solid #CCC; -moz-border-radius: 9px; -webkit-border-radius: 9px; border-radius: 9px; }
+#descriptionInner{margin:0 auto;text-align:center}
+#errorInner p, #description h1, #description p, #marketingInner h1, #marketingInner p, #dailymarketingInner h1, #dailymarketingInner p{position: relative; margin: 10px auto; padding: 5px 5% 5px 5%; width: 80%; min-height:40px;border:none;border-radius:0;display:block;text-align:center}
+#errorInner ul {width: 90%; margin: 0 auto; padding: 5px 5% 5px 5%; float: none;}
+
+
+/* cc */
+#colAuth {position: absolute; z-index: 9997; float: left; font-weight: bold; top: 0px; left: 0px; text-align: left; background: transparent url(http://bookings.liveres.co.uk/images/mh_bg_line.png) repeat-y; width: 100%; height: 100%; margin: 0;padding:0 }
+    
+#colAuth h1 { position: relative; margin: 10px 5% 0 1%; padding: 5px 5% 5px 5%; width: 80%; text-align: center; font-weight:700; font-size: 16px; }
+#colAuth ul { width: 90%; margin: 0 auto; padding: 5px 5% 5px 5%; float: none; list-style-type: square; color: #333; }
+#address1, #address2, #town, #county, #postcode, #cardtype, #authnumber, #expiry, #security{width: 90%; height:20px; margin: 0 auto; padding: 5px 5% 0 5%; display:block;clear:both}
+#address1 span, #address2 span, #town span, #county span, #postcode span, #cardtype span, #authnumber span, #expiry span, #security span { width: 110px; float: left; font-size:12px; font-weight: 700; }
+#address1 input, #address2 input, #town input, #county input, #postcode input, #cardtype select, #authnumber input, #security input { width: 130px; float: left; margin-left: 10px; }
+#expiry select{float:left;margin-left:10px}
+#security input{width:40px;}
+#security span{cursor:pointer;}
+#book3 { display: block; background: transparent url(https://bookings.liveres.co.uk/images/mh_bookit.png) no-repeat scroll left top; height: 33px; width: 112px; overflow: hidden; cursor: pointer; padding: 31px 0 0; border:none; clear:both; margin: 10px 0 0 160px;}
+
+
+/* child */
+#sesh span{float:left;display:inline;color: #939290 !Important;font-size:12px;width:75px}
+#childCovers { float: left; margin: 5px 0 0 5px; }
+#childCovers span{display:none}
+#ddlChildCovers{width:90px;font-size:11px;margin:0;height:18px}
+
+/* menus */
+#menu, #menuC { float: left; margin: 5px 0 0 5px; }
+#menu span, #menuC span{float:left;display:inline;color: #939290 !Important;font-size:12px;width:75px;}
+#DropDownListMenu, #DropDownListMenuC{width:130px;margin-left:5px;font-size:11px;height:18px;}
+
+/* inline enquiries */
+#inlineEnquiryCovers, #inlineEnquiryTime { float: left; }
+.inlineHeader{float:left;margin: 8px 0 0 5px;color: #939290 !Important;font-size:12px;font-weight:bold}
+#coversEnq, #childCoversEnq, #timeEnq {float: left; margin: 0 0 0 5px;}
+#coversEnq{clear:left}
+#coversEnq span, #childCoversEnq span, #timeEnq span { float:left;display:inline;color: #939290 !Important;font-size:12px;width:25px;line-height:22px}
+#childCoversEnq span { width: 60px; }
+#timeEnq span{width:75px}
+#coversEnq input, #childCoversEnq input{width:30px;margin-left:5px;font-size:11px;float:left;}
+#timeEnq select{width:40px;margin-left:5px;font-size:11px;float:left;height:18px;}
+.colon{margin-left:5px;width:auto!Important;height:18px;}
+.inlineText{float:right;font-size:10px;color: #939290 !Important;margin:8px 0 0 0}
+
+/* responsive media queries*/
+
+/* 7" tablet */
+@media only screen and (max-width: 709px)
+{
+body,#wrapper{ width:610px; }
+#col3, #col3.current, #col3.previous{width:510px;clear:both;margin-top:10px}
+}
+
+/* phone landscape*/
+@media only screen and (max-width: 609px) {
+body, #wrapper { width: 480px; }
+#col1, #col1.current, #col1.previous { margin-left: 10px; }
+#col2, #col2.current, #col2.previous { margin-left: 10px; width: 230px; }
+#col3, #col3.current, #col3.previous { width: 460px; }
+}
+/* phone portrait*/
+@media only screen and (max-width: 479px) {
+body, #wrapper { width: 320px; }
+#col1, #col1.current, #col1.previous, #col2, #col2.current, #col2.previous { margin-left: 20px; }
+#col2, #col2.current, #col2.previous { clear: both; padding-top: 10px; }
+#col3, #col3.current, #col3.previous { width: 300px; margin-left:20px;}
+}
+
+/* small paged unit*/
+@media only screen and (max-width: 240px) and (max-height:460px) {
+    body, #wrapper { width: 240px; height: 460px; }
+    #col1, #col1.current, #col1.previous, #col2, #col2.current, #col2.previous { margin-left: 4px; }
+        #col2, #col2.current, #col2.previous { clear: both; padding-top: 0px; }
+    #col3, #col3.current, #col3.previous { width: 240px; margin-left: 4px; }
+    div#col1.previous, div#col2.previous, div#col3.previous, div#col2.next, div#col3.next, input#tccheck.next,input#tccheck.previous,div.errored #book
+    { display: none; }
+
+#col1next,#col1next:hover { display: block; background: url(http://bookings.liveres.co.uk//images/next-button-003.png) no-repeat 0 -70px; height: 70px; width: 70px; bottom:0;right:0;padding:0;top:auto;left:auto}
+#col1next:hover { background: url(http://bookings.liveres.co.uk/images/next-button-003.png) no-repeat 0 0px; }
+#col2back { display: block; background: url(http://bookings.liveres.co.uk/images/prev-button-003.png) no-repeat 0 -70px; height: 70px; width: 70px;bottom:0;left:0;padding:0; top:auto}
+#col2back:hover { background: url(http://bookings.liveres.co.uk/images/prev-button-003.png) no-repeat 0 0px; }
+#covers span{width:75px;}
+table.cal{margin-top:20px;margin-bottom:15px}
+    #errorInner, #description, #marketingInner, #dailymarketingInner { height: 95%; }
+#multioffersScroller{width:216px;left:0}
+#multioffersCentre{width:160px}
+}
+/* phone prefix */
+#main.hasphonePrefix #phonePrefix { width: 56px; margin-left: 9px; }
+#main.hasphonePrefix #TextBoxTel { width: 77px; margin-left: 0px; }
+
+/* set add calendar link text to balck */
+.addToCalendarText{color: black !important;}
