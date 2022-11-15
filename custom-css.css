@@ -79,11 +79,23 @@ a#col1next, a#col2back, div#summary {
     display: none;
 }
 
-textarea#TextBoxRequests, select#DropDownListTitle, input#TextBoxFore, input#TextBoxSur, input#TextBoxTel, input#TextBoxEmail {
+textarea#TextBoxRequests, input#TextBoxFore, input#TextBoxSur, input#TextBoxTel, input#TextBoxEmail {
     display: block;
     border: 1px solid black;
     width: 98%;
     margin-top: 8px;
     margin-bottom: 20px;
+    padding: 12px 0px 12px 7px;
+    background-color: white;
+}
+
+p#tclabel {
+    display: contents;
+}
+
+input#book {
+    border: 1px solid black;
+    width: 100%;
+    margin-top: 8px;
     padding: 12px 0px 12px 7px;
 }
