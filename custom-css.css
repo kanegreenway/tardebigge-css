@@ -3,7 +3,7 @@
 /* responsive demo 1 ( with child prompts, cc preauth, menus, enquiries !*/
 
 body, option {
-    color: #637292;
+    color: #232A58;
     font-family: brandon-grotesque, sans-serif;
     font-style: normal;
     font-weight: 100;
@@ -33,15 +33,15 @@ div#col1, div#col2 {
     padding: 12px 0px 12px 7px;
 }
 
-div#sesh, div#covers, div#calendar span {
-    color: #9EA6B6;
-    font-style: italic;
-}
-
 table#Calendar1 {
     width: 100%;
 }
 
 table#Calendar1 table.cal_title {
     width: 100%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 8px;
 }
