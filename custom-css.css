@@ -44,4 +44,13 @@ table#Calendar1 table.cal_title {
     padding-top: 5px;
     padding-bottom: 5px;
     margin-top: 8px;
+    font-weight: 500;
+}
+
+table#Calendar1 td.cal_nextprev {
+    width: 90px;
+}
+
+th.cal_dayheader, td.cal_notavail, td.cal_day, td.cal_weekend, td.cal_othermonth {
+    padding-top: 10px;
 }
