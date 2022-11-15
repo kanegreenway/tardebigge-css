@@ -19,12 +19,27 @@ div#main {
 }
 
 div#col1, div#col2 {
-    width: 45%;
+    width: 44.15%;
     border: 1px solid black;
     padding: 20px;
 }
 
-#DropDownListSesh, #DropDownListCovers {
+div#col1 {
+    margin-right: 15px;
+}
+
+div#col2 {
+    margin-left: 15px;
+}
+
+div#col3 {
+    width: 100%;
+    border: 1px solid black;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+#DropDownListSesh, #DropDownListCovers, #DropDownListTime {
     display: block;
     border: 1px solid black;
     width: 100%;
@@ -35,6 +50,7 @@ div#col1, div#col2 {
 
 table#Calendar1 {
     width: 100%;
+    margin-bottom: 20px;
 }
 
 table#Calendar1 table.cal_title {
@@ -53,4 +69,12 @@ table#Calendar1 td.cal_nextprev {
 
 th.cal_dayheader, td.cal_notavail, td.cal_day, td.cal_weekend, td.cal_othermonth {
     padding-top: 10px;
+}
+
+#DropDownListTime {
+    margin-bottom: 0px;
+}
+
+a#col1next {
+    display: none;
 }
