@@ -1,6 +1,13 @@
 
-@import url('dsn001a_sesh.css');
+@import url('https://use.typekit.net/xzk2peo.css');
 /* responsive demo 1 ( with child prompts, cc preauth, menus, enquiries !*/
+
+body {
+    color: #637292;
+    font-family: brandon-grotesque, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+}
 
 div#headerdiv, div#restaurant {
     display: none;
@@ -17,12 +24,16 @@ div#col1, div#col2 {
     padding: 20px;
 }
 
-#DropDownListSesh {
+#DropDownListSesh, #DropDownListCovers {
     display: block;
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    padding: 12px 0px 12px 7px;
 }
 
-#DropDownListCovers {
-    display: block;
+div#sesh {
+    color: #9EA6B6
 }
 
 table#Calendar1 {
