@@ -63,12 +63,29 @@ table#Calendar1 table.cal_title {
     font-weight: 500;
 }
 
+th {
+    max-width: 5px !important;
+}
+
 table#Calendar1 td.cal_nextprev {
     width: 90px;
 }
 
-th.cal_dayheader, td.cal_notavail, td.cal_day, td.cal_weekend, td.cal_othermonth {
+th.cal_dayheader, td.cal_notavail, td.cal_day, td.cal_weekend, td.cal_othermonth, td.cal_selectday {
     padding-top: 10px;
+    width: 0px;
+    position: relative;
+}
+
+td.cal_selectday a{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding-left: 6px;
+    padding-right: 6px;
 }
 
 #DropDownListTime {
