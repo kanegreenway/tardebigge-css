@@ -2,6 +2,15 @@
 @import url('dsn001a_sesh.css');
 /* responsive demo 1 ( with child prompts, cc preauth, menus, enquiries !*/
 
-div#headerdiv {
+div#headerdiv, div#restaurant {
     display: none;
+}
+
+div#main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div#col1, div#col2 {
+    width: 48%;
 }
