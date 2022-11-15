@@ -17,6 +17,18 @@ div#col1, div#col2 {
     padding: 20px;
 }
 
-div#col1 {
-    
+#DropDownListSesh {
+    display: block;
+}
+
+#DropDownListCovers {
+    display: block;
+}
+
+table#Calendar1 {
+    width: 100%;
+}
+
+table#Calendar1 table.cal_title {
+    width: 100%;
 }
