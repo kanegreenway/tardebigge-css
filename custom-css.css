@@ -71,7 +71,7 @@ table#Calendar1 td.cal_nextprev {
     width: 90px;
 }
 
-th.cal_dayheader, td.cal_notavail, td.cal_day, td.cal_weekend, td.cal_othermonth, td.cal_selectday {
+th.cal_dayheader, td.cal_today, td.cal_notavail, td.cal_day, td.cal_weekend, td.cal_othermonth, td.cal_selectday {
     padding-top: 10px;
     width: 0px;
 }
